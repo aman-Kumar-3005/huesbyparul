@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Paul & My Gear — Huesby.Paul Photographer & Retoucher</title>
+  <meta name="description" content="Learn about Paul (@huesby.paul), his photographic philosophy, retouching ethos, and Sony α7R equipment kit." />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            dark: { 950: '#050507', 900: '#0a0a0d', 850: '#0e0e14', 800: '#14141b', 750: '#1a1a24', 700: '#222230', 600: '#2f2f42' },
+            gold: { 300: '#f5e7b2', 400: '#e3c66f', 500: '#d4af37', 600: '#b89226', 700: '#8e6d15' }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Syne"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-dark-950 text-neutral-200 font-sans antialiased overflow-x-hidden selection:bg-gold-500 selection:text-black">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-dark-900/90 border-b border-white/5 py-2 px-4 text-center text-[11px] sm:text-xs tracking-wider uppercase text-neutral-400 flex items-center justify-center gap-3">
+    <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+    <span class="truncate">Booking Open for 2025-2026 Sessions &amp; Paid Photo Retouching</span>
+    <span class="hidden md:inline text-neutral-600">•</span>
+    <a href="https://wa.me/918688365399?text=Hi%20Paul,%20checking%20dates%20for%20a%20shoot" target="_blank" class="hidden md:inline text-gold-400 hover:text-gold-300 font-semibold underline underline-offset-4 whitespace-nowrap">Check Dates via WhatsApp &rarr;</a>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="sticky top-0 z-50 bg-dark-950/90 backdrop-blur-xl border-b border-gold-500/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="flex items-center gap-3 shrink-0 group">
+        <div class="w-10 h-10 rounded-full border border-gold-500/50 bg-dark-900 flex items-center justify-center text-gold-400 group-hover:border-gold-300 transition-colors shadow-lg shadow-gold-500/10">
+          <i data-lucide="aperture" class="w-5 h-5"></i>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-display font-bold text-lg sm:text-xl tracking-tight text-white group-hover:text-gold-300 transition-colors whitespace-nowrap">HUESBY<span class="text-gold-500">.</span>PAUL</span>
+          <span class="text-[9px] tracking-[0.25em] text-neutral-400 uppercase font-medium whitespace-nowrap">Photographer &amp; Retoucher</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden xl:flex items-center gap-6 text-xs font-semibold tracking-wider uppercase shrink-0">
+        <a href="index.html" class="text-neutral-300 hover:text-white transition-colors whitespace-nowrap">Home</a>
+        
+        <!-- Portfolio Dropdown -->
+        <div class="relative group">
+          <a href="portfolio.html" class="text-neutral-300 hover:text-white flex items-center gap-1.5 transition-colors py-2 whitespace-nowrap">
+            <span>Portfolio</span>
+            <i data-lucide="chevron-down" class="w-3.5 h-3.5 group-hover:rotate-180 transition-transform"></i>
+          </a>
+          <div class="absolute left-0 top-full pt-2 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+            <div class="w-80 bg-dark-900/98 backdrop-blur-2xl border border-gold-500/30 rounded-2xl p-3 shadow-2xl space-y-1">
+              <div class="px-3 py-1.5 text-[10px] text-neutral-500 uppercase tracking-widest font-bold">Category Pages</div>
+              <a href="portraits.html" class="flex items-center justify-between p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors">
+                <span class="flex items-center gap-2.5"><i data-lucide="user" class="w-4 h-4 text-gold-500"></i> Portraits &amp; Headshots</span>
+                <span class="text-[10px] bg-dark-700 px-1.5 py-0.5 rounded text-neutral-400">Sony α7R</span>
+              </a>
+              <a href="architecture.html" class="flex items-center justify-between p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors">
+                <span class="flex items-center gap-2.5"><i data-lucide="landmark" class="w-4 h-4 text-gold-500"></i> Architecture (Charminar)</span>
+                <span class="text-[10px] bg-gold-500/20 text-gold-400 px-1.5 py-0.5 rounded">Featured</span>
+              </a>
+              <a href="retouch-work.html" class="flex items-center justify-between p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors">
+                <span class="flex items-center gap-2.5"><i data-lucide="sparkles" class="w-4 h-4 text-emerald-400"></i> Retouch Work (Before/After)</span>
+                <span class="text-[10px] bg-emerald-500/20 text-emerald-400 px-1.5 py-0.5 rounded">Sliders</span>
+              </a>
+              <a href="traditional-ethnic.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="crown" class="w-4 h-4 text-neutral-400"></i> Traditional &amp; Sarees
+              </a>
+              <a href="maternity.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="heart" class="w-4 h-4 text-neutral-400"></i> Maternity Shoots
+              </a>
+              <a href="couples-prewedding.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="flame" class="w-4 h-4 text-neutral-400"></i> Couple &amp; Pre-Wedding
+              </a>
+              <a href="baby-family.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="users" class="w-4 h-4 text-neutral-400"></i> Baby &amp; Family
+              </a>
+              <a href="landscape-nature.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="mountain" class="w-4 h-4 text-neutral-400"></i> Landscape &amp; Nature
+              </a>
+              <a href="street-photography.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="camera" class="w-4 h-4 text-neutral-400"></i> Street (B&amp;W)
+              </a>
+              <a href="product-photography.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="box" class="w-4 h-4 text-neutral-400"></i> Product (Toy/Model Cars)
+              </a>
+              <a href="jewelry-photography.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="gem" class="w-4 h-4 text-neutral-400"></i> Jewelry Macro
+              </a>
+              <div class="border-t border-white/10 pt-2 mt-1">
+                <div class="px-3 py-1 text-[10px] text-neutral-500 uppercase tracking-widest font-bold">Instagram Highlights</div>
+                <a href="gear.html" class="flex items-center gap-2 p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors text-xs">
+                  <i data-lucide="disc" class="w-4 h-4 text-gold-400"></i> My Gear Showcase
+                </a>
+                <a href="2025.html" class="flex items-center gap-2 p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors text-xs">
+                  <i data-lucide="sparkle" class="w-4 h-4 text-gold-400"></i> 2025 Current Work
+                </a>
+                <a href="shoot-diaries.html" class="flex items-center gap-2 p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors text-xs">
+                  <i data-lucide="film" class="w-4 h-4 text-gold-400"></i> Shoot Diaries (BTS)
+                </a>
+                <a href="old-shoots.html" class="flex items-center gap-2 p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors text-xs">
+                  <i data-lucide="archive" class="w-4 h-4 text-neutral-400"></i> Old Shoots Archive
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="retouch-work.html" class="text-neutral-300 hover:text-white flex items-center gap-1.5 transition-colors whitespace-nowrap">
+          <span>Retouching</span>
+          <span class="text-[9px] uppercase px-1.5 py-0.5 rounded bg-gold-500/20 text-gold-300 font-bold tracking-wider">B/A</span>
+        </a>
+        <a href="gear.html" class="text-neutral-300 hover:text-white transition-colors whitespace-nowrap">My Gear</a>
+        <a href="about.html" class="text-gold-400 font-bold transition-colors whitespace-nowrap">About</a>
+        <a href="services.html" class="text-neutral-300 hover:text-white transition-colors whitespace-nowrap">Services</a>
+        <a href="contact.html" class="text-neutral-300 hover:text-white transition-colors whitespace-nowrap">Contact</a>
+      </nav>
+
+      <!-- Action CTAs -->
+      <div class="hidden sm:flex items-center gap-3 shrink-0">
+        <a href="https://wa.me/918688365399?text=Hi%20Paul,%20checking%20shoot%20availability" target="_blank" class="flex items-center gap-2 px-3.5 py-2 rounded-full bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-400 border border-emerald-500/30 text-xs font-semibold tracking-wider uppercase transition-all whitespace-nowrap">
+          <i data-lucide="message-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
+          <span>WhatsApp</span>
+        </a>
+
+        <a href="contact.html" class="px-5 py-2.5 rounded-full bg-gradient-to-r from-gold-500 to-amber-600 text-black font-semibold text-xs tracking-wider uppercase shadow-lg shadow-gold-500/25 hover:shadow-gold-500/40 hover:scale-[1.02] transition-all whitespace-nowrap">
+          Book Shoot
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-toggle" class="xl:hidden p-2 text-neutral-300 hover:text-white" aria-label="Toggle Navigation">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="xl:hidden hidden fixed inset-0 top-20 bg-dark-950/98 backdrop-blur-2xl z-50 p-6 overflow-y-auto">
+      <div class="flex items-center justify-between pb-4 mb-2 border-b border-white/10">
+        <span class="text-xs uppercase tracking-widest text-gold-400 font-bold">Navigation Menu</span>
+        <button id="mobile-menu-close" class="p-1 text-neutral-400 hover:text-white" aria-label="Close Menu">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <div class="flex flex-col space-y-3 text-sm font-medium">
+        <a href="index.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>Home</span>
+          <i data-lucide="home" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="portfolio.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>All Portfolio Pages</span>
+          <i data-lucide="layout-grid" class="w-4 h-4 text-gold-500"></i>
+        </a>
+        <a href="retouch-work.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>Retouch Work (Before/After)</span>
+          <span class="text-[9px] bg-gold-500/20 text-gold-300 px-2 py-0.5 rounded font-bold uppercase">Sliders</span>
+        </a>
+        <a href="gear.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>My Gear (Sony α7R)</span>
+          <i data-lucide="camera" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="2025.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>2025 Recent Shoots</span>
+          <i data-lucide="sparkle" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="shoot-diaries.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>Shoot Diaries (BTS)</span>
+          <i data-lucide="film" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="old-shoots.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>Old Shoots Archive</span>
+          <i data-lucide="archive" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="about.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>About Paul</span>
+          <i data-lucide="user" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="services.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>Services &amp; Pricing</span>
+          <i data-lucide="sliders" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="contact.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>Contact &amp; Book Now</span>
+          <i data-lucide="send" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+
+        <div class="pt-4 space-y-2">
+          <a href="https://wa.me/918688365399" target="_blank" class="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs uppercase tracking-wider transition-colors">
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
+            <span>WhatsApp (+91 86883 65399)</span>
+          </a>
+          <a href="tel:+918688365399" class="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-dark-900 border border-white/10 text-neutral-300 hover:text-white text-xs font-semibold uppercase tracking-wider transition-colors">
+            <i data-lucide="phone" class="w-4 h-4 text-gold-400"></i>
+            <span>Call: +91 86883 65399</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Hero -->
+  <section class="py-24 bg-dark-900 border-b border-white/5 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Image / Slot -->
+        <div class="lg:col-span-5 flex justify-center">
+          <div class="relative w-full max-w-[380px] aspect-[4/5] rounded-3xl overflow-hidden border border-gold-500/30 shadow-2xl bg-dark-950">
+            <img src="assets/images/129790836_411459326661507_5550981001900737008_n.jpg" alt="Paul Photographer & Retoucher" class="w-full h-full object-cover high-res-render" />
+            <div class="absolute top-4 left-4 px-2.5 py-1 rounded bg-black/80 text-gold-400 text-[10px] font-mono border border-gold-500/40 backdrop-blur-md">
+              ★ Paul (@huesby.paul)
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-dark-950 via-transparent to-transparent"></div>
+            <div class="absolute bottom-6 inset-x-6 text-center">
+              <span class="text-xs uppercase tracking-widest text-gold-400 font-semibold block">Paul (@huesby.paul)</span>
+              <p class="text-sm text-neutral-300 font-serif italic mt-1">"Light is not what I record, it is what I sculpt."</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Biography & Philosophy -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold uppercase tracking-widest">
+            <i data-lucide="user-check" class="w-4 h-4"></i>
+            <span>The Visual Artist Behind The Lens</span>
+          </div>
+
+          <h1 class="font-serif text-4xl sm:text-6xl text-white font-normal leading-tight">
+            Obsessed with Shadow, <span class="italic text-gold-gradient">Authenticity &amp; Tone</span>
+          </h1>
+
+          <p class="text-neutral-300 leading-relaxed text-sm sm:text-base">
+            I am Paul, the creator behind <strong>@huesby.paul</strong>. As a freelance photographer and dedicated digital retoucher, my visual signature balances cinematic moodiness with organic authenticity.
+          </p>
+
+          <p class="text-neutral-400 leading-relaxed text-sm sm:text-base">
+            Whether framing the four-hundred-year-old symmetry of Charminar at dusk, capturing the radiant anticipation of an expectant mother, or photographing high-precision scale model cars, my process treats every frame with editorial respect.
+          </p>
+
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-4 border-t border-white/10">
+            <div>
+              <span class="text-gold-400 font-display font-bold text-lg block">Dual Expertise</span>
+              <p class="text-xs text-neutral-400 mt-0.5">Photographer &amp; High-End Retoucher</p>
+            </div>
+            <div>
+              <span class="text-gold-400 font-display font-bold text-lg block">Sony Optics</span>
+              <p class="text-xs text-neutral-400 mt-0.5">Ultra-High Megapixel Full-Frame</p>
+            </div>
+            <div>
+              <span class="text-gold-400 font-display font-bold text-lg block">Direct Access</span>
+              <p class="text-xs text-neutral-400 mt-0.5">WhatsApp-First Direct Communication</p>
+            </div>
+          </div>
+
+          <div class="pt-4 flex items-center gap-4">
+            <a href="https://wa.me/918688365399" target="_blank" class="px-6 py-3.5 rounded-full bg-gold-500 hover:bg-gold-400 text-black font-semibold text-xs uppercase tracking-wider transition-all shadow-lg shadow-gold-500/20">
+              Message Paul on WhatsApp
+            </a>
+            <a href="https://www.instagram.com/huesby.paul" target="_blank" class="px-6 py-3.5 rounded-full bg-dark-800 hover:bg-dark-750 text-white border border-white/10 text-xs uppercase tracking-wider transition-all flex items-center gap-2">
+              <i data-lucide="instagram" class="w-4 h-4 text-gold-400"></i>
+              <span>@huesby.paul</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Complete Gear Breakdown (Credibility) -->
+  <section id="gear" class="py-24 bg-dark-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 text-gold-400 text-xs font-semibold uppercase tracking-widest mb-3">
+          <i data-lucide="camera" class="w-4 h-4"></i>
+          <span>My Gear Bag</span>
+        </div>
+        <h2 class="font-serif text-3xl sm:text-5xl text-white font-normal">
+          Precision Optics &amp; <span class="italic text-gold-gradient">Lighting Arsenal</span>
+        </h2>
+        <p class="text-neutral-400 text-sm sm:text-base mt-3">
+          Gear doesn't make the photographer, but top-tier glass ensures every fine strand of hair, fabric thread, and stone texture is captured with crystalline clarity.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- 1. Camera Body -->
+        <div class="glass-panel p-6 rounded-2xl border border-white/10">
+          <div class="w-10 h-10 rounded-xl bg-gold-500/10 border border-gold-500/30 text-gold-400 flex items-center justify-center mb-4">
+            <i data-lucide="camera" class="w-5 h-5"></i>
+          </div>
+          <span class="text-[10px] uppercase font-mono text-gold-400 font-semibold tracking-wider">Camera Body</span>
+          <h3 class="font-display text-lg font-bold text-white mt-1">Sony α7R Series</h3>
+          <p class="text-xs text-neutral-400 mt-2 leading-relaxed">
+            High-resolution full-frame sensor allowing 100% crop capability and breathtaking dynamic range for highlights and deep shadows.
+          </p>
+        </div>
+
+        <!-- 2. Prime Portrait Lens -->
+        <div class="glass-panel p-6 rounded-2xl border border-white/10">
+          <div class="w-10 h-10 rounded-xl bg-gold-500/10 border border-gold-500/30 text-gold-400 flex items-center justify-center mb-4">
+            <i data-lucide="disc" class="w-5 h-5"></i>
+          </div>
+          <span class="text-[10px] uppercase font-mono text-gold-400 font-semibold tracking-wider">Portrait Prime</span>
+          <h3 class="font-display text-lg font-bold text-white mt-1">Sony FE 85mm f/1.4 GM</h3>
+          <p class="text-xs text-neutral-400 mt-2 leading-relaxed">
+            Legendary portrait glass with 11-blade circular aperture creating velvety background compression and dreamy subject isolation.
+          </p>
+        </div>
+
+        <!-- 3. Ultra-Wide & Standard Zoom -->
+        <div class="glass-panel p-6 rounded-2xl border border-white/10">
+          <div class="w-10 h-10 rounded-xl bg-gold-500/10 border border-gold-500/30 text-gold-400 flex items-center justify-center mb-4">
+            <i data-lucide="zoom-in" class="w-5 h-5"></i>
+          </div>
+          <span class="text-[10px] uppercase font-mono text-gold-400 font-semibold tracking-wider">Architecture &amp; Landscapes</span>
+          <h3 class="font-display text-lg font-bold text-white mt-1">Sony FE 24-70mm f/2.8 GM</h3>
+          <p class="text-xs text-neutral-400 mt-2 leading-relaxed">
+            Workhorse constant f/2.8 zoom for architecture symmetry, events, and versatile perspectives without compromising edge-to-edge sharpness.
+          </p>
+        </div>
+
+        <!-- 4. Macro Prime -->
+        <div class="glass-panel p-6 rounded-2xl border border-white/10">
+          <div class="w-10 h-10 rounded-xl bg-gold-500/10 border border-gold-500/30 text-gold-400 flex items-center justify-center mb-4">
+            <i data-lucide="gem" class="w-5 h-5"></i>
+          </div>
+          <span class="text-[10px] uppercase font-mono text-gold-400 font-semibold tracking-wider">Macro Optics</span>
+          <h3 class="font-display text-lg font-bold text-white mt-1">90mm f/2.8 Macro G OSS</h3>
+          <p class="text-xs text-neutral-400 mt-2 leading-relaxed">
+            1:1 true reproduction ratio for botanical jewelry shoots, product details, and extreme close-up diamond faceting.
+          </p>
+        </div>
+
+        <!-- 5. Lighting & Modifiers -->
+        <div class="glass-panel p-6 rounded-2xl border border-white/10">
+          <div class="w-10 h-10 rounded-xl bg-gold-500/10 border border-gold-500/30 text-gold-400 flex items-center justify-center mb-4">
+            <i data-lucide="sun" class="w-5 h-5"></i>
+          </div>
+          <span class="text-[10px] uppercase font-mono text-gold-400 font-semibold tracking-wider">Lighting System</span>
+          <h3 class="font-display text-lg font-bold text-white mt-1">Godox AD200 Pro &amp; Softboxes</h3>
+          <p class="text-xs text-neutral-400 mt-2 leading-relaxed">
+            Portable wireless high-speed sync strobes with double-diffused parabolic softboxes and honeycomb grids for exact directional control.
+          </p>
+        </div>
+
+        <!-- 6. Post-Production Station -->
+        <div class="glass-panel p-6 rounded-2xl border border-white/10">
+          <div class="w-10 h-10 rounded-xl bg-gold-500/10 border border-gold-500/30 text-gold-400 flex items-center justify-center mb-4">
+            <i data-lucide="monitor" class="w-5 h-5"></i>
+          </div>
+          <span class="text-[10px] uppercase font-mono text-gold-400 font-semibold tracking-wider">Editing Suite</span>
+          <h3 class="font-display text-lg font-bold text-white mt-1">Hardware Calibrated IPS &amp; Wacom</h3>
+          <p class="text-xs text-neutral-400 mt-2 leading-relaxed">
+            100% sRGB / DCI-P3 calibrated color monitors paired with pressure-sensitive Wacom pen tablets for micro pixel-level skin retouching.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5-Step Client Workflow Process -->
+  <section class="py-24 bg-dark-900 border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="font-serif text-3xl sm:text-5xl text-white font-normal">
+          The Creative <span class="italic text-gold-gradient">Process</span>
+        </h2>
+        <p class="text-neutral-400 text-sm mt-3">From initial concept conversation on WhatsApp to high-resolution gallery delivery.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+        
+        <div class="p-6 rounded-2xl bg-dark-950 border border-white/10 space-y-3 relative">
+          <div class="text-gold-400 font-mono font-bold text-2xl">01</div>
+          <h4 class="text-white font-display font-bold text-base">Vision &amp; Date</h4>
+          <p class="text-xs text-neutral-400">Brief consultation on WhatsApp to align on shoot vibe, reference moodboards, and location scouting.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-dark-950 border border-white/10 space-y-3 relative">
+          <div class="text-gold-400 font-mono font-bold text-2xl">02</div>
+          <h4 class="text-white font-display font-bold text-base">The Shoot</h4>
+          <p class="text-xs text-neutral-400">Comfortable, relaxed directing with optimal natural or studio strobe lighting for natural, confident expressions.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-dark-950 border border-white/10 space-y-3 relative">
+          <div class="text-gold-400 font-mono font-bold text-2xl">03</div>
+          <h4 class="text-white font-display font-bold text-base">RAW Selection</h4>
+          <p class="text-xs text-neutral-400">You receive a private digital proofing gallery to handpick your favorite hero photos for final retouching.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-dark-950 border border-white/10 space-y-3 relative">
+          <div class="text-gold-400 font-mono font-bold text-2xl">04</div>
+          <h4 class="text-white font-display font-bold text-base">Master Retouch</h4>
+          <p class="text-xs text-neutral-400">16-bit frequency separation, non-destructive dodge &amp; burn, tone sculpt, and signature color grading.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-dark-950 border border-white/10 space-y-3 relative">
+          <div class="text-gold-400 font-mono font-bold text-2xl">05</div>
+          <h4 class="text-white font-display font-bold text-base">Cloud Delivery</h4>
+          <p class="text-xs text-neutral-400">Full-resolution uncompressed print-ready JPEGs + web-optimized exports delivered via private cloud download.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Master Editorial Footer -->
+  <footer class="bg-dark-950 border-t border-white/10 pt-16 pb-12 text-neutral-400 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-white/10">
+        
+        <!-- Col 1: Brand Info -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full border border-gold-500/40 bg-dark-900 flex items-center justify-center text-gold-400 shadow-md shadow-gold-500/10">
+              <i data-lucide="aperture" class="w-4 h-4"></i>
+            </div>
+            <span class="font-display font-bold text-xl text-white tracking-tight">HUESBY<span class="text-gold-500">.</span>PAUL</span>
+          </div>
+          <p class="text-neutral-400 text-xs leading-relaxed max-w-sm">
+            Cinematic freelance photography &amp; high-end photo retouching by Paul (@huesby.paul). Dedicated to authentic storytelling, architectural heritage, and flawless editorial skin tone rendering.
+          </p>
+          <div class="flex flex-wrap items-center gap-4 text-neutral-400 pt-2">
+            <a href="https://www.instagram.com/huesby.paul" target="_blank" class="hover:text-gold-400 transition-colors flex items-center gap-1.5 text-xs">
+              <i data-lucide="instagram" class="w-4 h-4 text-gold-400"></i>
+              <span>@huesby.paul</span>
+            </a>
+            <a href="https://wa.me/918688365399" target="_blank" class="hover:text-emerald-400 transition-colors flex items-center gap-1.5 text-xs">
+              <i data-lucide="message-circle" class="w-4 h-4 text-emerald-400"></i>
+              <span>+91 86883 65399</span>
+            </a>
+          </div>
+          <div class="text-[11px] text-neutral-500 pt-1 space-y-0.5">
+            <p>📍 Hyderabad, India • Pan-India travel available</p>
+            <p>📸 Sony α7R Full-Frame Mirrorless • G-Master Optics</p>
+          </div>
+        </div>
+
+        <!-- Col 2: Category Portfolios -->
+        <div class="space-y-3">
+          <h4 class="text-xs uppercase tracking-widest text-white font-semibold flex items-center gap-1.5">
+            <i data-lucide="camera" class="w-3.5 h-3.5 text-gold-400"></i>
+            <span>Categories</span>
+          </h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="portraits.html" class="hover:text-gold-400 transition-colors">Portraits &amp; Headshots</a></li>
+            <li><a href="architecture.html" class="hover:text-gold-400 transition-colors">Architecture (Charminar)</a></li>
+            <li><a href="traditional-ethnic.html" class="hover:text-gold-400 transition-colors">Traditional &amp; Sarees</a></li>
+            <li><a href="maternity.html" class="hover:text-gold-400 transition-colors">Maternity Photography</a></li>
+            <li><a href="couples-prewedding.html" class="hover:text-gold-400 transition-colors">Couples &amp; Pre-Wedding</a></li>
+            <li><a href="baby-family.html" class="hover:text-gold-400 transition-colors">Baby &amp; Family</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: More Disciplines -->
+        <div class="space-y-3">
+          <h4 class="text-xs uppercase tracking-widest text-white font-semibold flex items-center gap-1.5">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-emerald-400"></i>
+            <span>Commercial &amp; Art</span>
+          </h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="retouch-work.html" class="hover:text-gold-400 transition-colors text-gold-400 font-medium">Retouch Work (B/A)</a></li>
+            <li><a href="landscape-nature.html" class="hover:text-gold-400 transition-colors">Landscape &amp; Nature</a></li>
+            <li><a href="street-photography.html" class="hover:text-gold-400 transition-colors">Street (Monochrome)</a></li>
+            <li><a href="product-photography.html" class="hover:text-gold-400 transition-colors">Product Photography</a></li>
+            <li><a href="jewelry-photography.html" class="hover:text-gold-400 transition-colors">Jewelry Macro Craft</a></li>
+            <li><a href="portfolio.html" class="hover:text-gold-400 transition-colors text-neutral-300">All Portfolio Hub &rarr;</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Instagram Highlights & BTS -->
+        <div class="space-y-3">
+          <h4 class="text-xs uppercase tracking-widest text-white font-semibold flex items-center gap-1.5">
+            <i data-lucide="disc" class="w-3.5 h-3.5 text-gold-400"></i>
+            <span>Highlights &amp; BTS</span>
+          </h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="gear.html" class="hover:text-gold-400 transition-colors">My Gear (Sony α7R)</a></li>
+            <li><a href="2025.html" class="hover:text-gold-400 transition-colors">2025 Current Work</a></li>
+            <li><a href="shoot-diaries.html" class="hover:text-gold-400 transition-colors">Shoot Diaries (BTS)</a></li>
+            <li><a href="old-shoots.html" class="hover:text-gold-400 transition-colors">Old Shoots Archive</a></li>
+            <li><a href="about.html" class="hover:text-gold-400 transition-colors">About Paul</a></li>
+            <li><a href="services.html" class="hover:text-gold-400 transition-colors">Services &amp; Pricing</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-500 gap-4">
+        <p>&copy; 2026 Huesby.Paul (@huesby.paul). All rights reserved. Professional Photography &amp; Retouching.</p>
+        <div class="flex flex-wrap items-center gap-6 text-neutral-400">
+          <a href="index.html" class="hover:text-gold-400 transition-colors">Home</a>
+          <a href="portfolio.html" class="hover:text-gold-400 transition-colors">Portfolio</a>
+          <a href="services.html" class="hover:text-gold-400 transition-colors">Pricing &amp; FAQs</a>
+          <a href="about.html" class="hover:text-gold-400 transition-colors">About Paul</a>
+          <a href="contact.html" class="hover:text-gold-400 transition-colors">Book a Shoot</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+    <!-- Sticky Pulsing WhatsApp Floating Button -->
+  <a href="https://wa.me/918688365399?text=Hi%20Paul,%20checking%20shoot%20availability" target="_blank" class="fixed bottom-6 right-6 z-40 whatsapp-pulse flex items-center gap-2.5 px-4 py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs tracking-wider uppercase shadow-2xl transition-all hover:scale-105 group" title="Chat directly with Paul on WhatsApp">
+    <i data-lucide="message-circle" class="w-5 h-5 fill-white text-emerald-600"></i>
+    <span class="hidden sm:inline font-bold">WhatsApp (+91 86883 65399)</span>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>

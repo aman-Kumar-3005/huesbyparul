@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Couples & Pre-Wedding Photography — Huesby.Paul</title>
+  <meta name="description" content="Cinematic couple shoots, romantic sunset silhouettes, and pre-wedding stories by Paul (@huesby.paul)." />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            dark: { 950: '#050507', 900: '#0a0a0d', 850: '#0e0e14', 800: '#14141b', 750: '#1a1a24', 700: '#222230', 600: '#2f2f42' },
+            gold: { 300: '#f5e7b2', 400: '#e3c66f', 500: '#d4af37', 600: '#b89226', 700: '#8e6d15' }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Syne"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-dark-950 text-neutral-200 font-sans antialiased overflow-x-hidden selection:bg-gold-500 selection:text-black">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-dark-900/90 border-b border-white/5 py-2 px-4 text-center text-[11px] sm:text-xs tracking-wider uppercase text-neutral-400 flex items-center justify-center gap-3">
+    <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+    <span class="truncate">Booking Open for 2025-2026 Sessions &amp; Paid Photo Retouching</span>
+    <span class="hidden md:inline text-neutral-600">•</span>
+    <a href="https://wa.me/918688365399?text=Hi%20Paul,%20checking%20dates%20for%20a%20shoot" target="_blank" class="hidden md:inline text-gold-400 hover:text-gold-300 font-semibold underline underline-offset-4 whitespace-nowrap">Check Dates via WhatsApp &rarr;</a>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="sticky top-0 z-50 bg-dark-950/90 backdrop-blur-xl border-b border-gold-500/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="flex items-center gap-3 shrink-0 group">
+        <div class="w-10 h-10 rounded-full border border-gold-500/50 bg-dark-900 flex items-center justify-center text-gold-400 group-hover:border-gold-300 transition-colors shadow-lg shadow-gold-500/10">
+          <i data-lucide="aperture" class="w-5 h-5"></i>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-display font-bold text-lg sm:text-xl tracking-tight text-white group-hover:text-gold-300 transition-colors whitespace-nowrap">HUESBY<span class="text-gold-500">.</span>PAUL</span>
+          <span class="text-[9px] tracking-[0.25em] text-neutral-400 uppercase font-medium whitespace-nowrap">Photographer &amp; Retoucher</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden xl:flex items-center gap-6 text-xs font-semibold tracking-wider uppercase shrink-0">
+        <a href="index.html" class="text-neutral-300 hover:text-white transition-colors whitespace-nowrap">Home</a>
+        
+        <!-- Portfolio Dropdown -->
+        <div class="relative group">
+          <a href="portfolio.html" class="text-gold-400 font-bold flex items-center gap-1.5 transition-colors py-2 whitespace-nowrap">
+            <span>Portfolio</span>
+            <i data-lucide="chevron-down" class="w-3.5 h-3.5 group-hover:rotate-180 transition-transform"></i>
+          </a>
+          <div class="absolute left-0 top-full pt-2 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
+            <div class="w-80 bg-dark-900/98 backdrop-blur-2xl border border-gold-500/30 rounded-2xl p-3 shadow-2xl space-y-1">
+              <div class="px-3 py-1.5 text-[10px] text-neutral-500 uppercase tracking-widest font-bold">Category Pages</div>
+              <a href="portraits.html" class="flex items-center justify-between p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors">
+                <span class="flex items-center gap-2.5"><i data-lucide="user" class="w-4 h-4 text-gold-500"></i> Portraits &amp; Headshots</span>
+                <span class="text-[10px] bg-dark-700 px-1.5 py-0.5 rounded text-neutral-400">Sony α7R</span>
+              </a>
+              <a href="architecture.html" class="flex items-center justify-between p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors">
+                <span class="flex items-center gap-2.5"><i data-lucide="landmark" class="w-4 h-4 text-gold-500"></i> Architecture (Charminar)</span>
+                <span class="text-[10px] bg-gold-500/20 text-gold-400 px-1.5 py-0.5 rounded">Featured</span>
+              </a>
+              <a href="retouch-work.html" class="flex items-center justify-between p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors">
+                <span class="flex items-center gap-2.5"><i data-lucide="sparkles" class="w-4 h-4 text-emerald-400"></i> Retouch Work (Before/After)</span>
+                <span class="text-[10px] bg-emerald-500/20 text-emerald-400 px-1.5 py-0.5 rounded">Sliders</span>
+              </a>
+              <a href="traditional-ethnic.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="crown" class="w-4 h-4 text-neutral-400"></i> Traditional &amp; Sarees
+              </a>
+              <a href="maternity.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="heart" class="w-4 h-4 text-neutral-400"></i> Maternity Shoots
+              </a>
+              <a href="couples-prewedding.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="flame" class="w-4 h-4 text-neutral-400"></i> Couple &amp; Pre-Wedding
+              </a>
+              <a href="baby-family.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="users" class="w-4 h-4 text-neutral-400"></i> Baby &amp; Family
+              </a>
+              <a href="landscape-nature.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="mountain" class="w-4 h-4 text-neutral-400"></i> Landscape &amp; Nature
+              </a>
+              <a href="street-photography.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="camera" class="w-4 h-4 text-neutral-400"></i> Street (B&amp;W)
+              </a>
+              <a href="product-photography.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="box" class="w-4 h-4 text-neutral-400"></i> Product (Toy/Model Cars)
+              </a>
+              <a href="jewelry-photography.html" class="flex items-center p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors gap-2.5">
+                <i data-lucide="gem" class="w-4 h-4 text-neutral-400"></i> Jewelry Macro
+              </a>
+              <div class="border-t border-white/10 pt-2 mt-1">
+                <div class="px-3 py-1 text-[10px] text-neutral-500 uppercase tracking-widest font-bold">Instagram Highlights</div>
+                <a href="gear.html" class="flex items-center gap-2 p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors text-xs">
+                  <i data-lucide="disc" class="w-4 h-4 text-gold-400"></i> My Gear Showcase
+                </a>
+                <a href="2025.html" class="flex items-center gap-2 p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors text-xs">
+                  <i data-lucide="sparkle" class="w-4 h-4 text-gold-400"></i> 2025 Current Work
+                </a>
+                <a href="shoot-diaries.html" class="flex items-center gap-2 p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors text-xs">
+                  <i data-lucide="film" class="w-4 h-4 text-gold-400"></i> Shoot Diaries (BTS)
+                </a>
+                <a href="old-shoots.html" class="flex items-center gap-2 p-2 rounded-lg hover:bg-dark-800 text-neutral-300 hover:text-gold-300 transition-colors text-xs">
+                  <i data-lucide="archive" class="w-4 h-4 text-neutral-400"></i> Old Shoots Archive
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="retouch-work.html" class="text-neutral-300 hover:text-white flex items-center gap-1.5 transition-colors whitespace-nowrap">
+          <span>Retouching</span>
+          <span class="text-[9px] uppercase px-1.5 py-0.5 rounded bg-gold-500/20 text-gold-300 font-bold tracking-wider">B/A</span>
+        </a>
+        <a href="gear.html" class="text-neutral-300 hover:text-white transition-colors whitespace-nowrap">My Gear</a>
+        <a href="about.html" class="text-neutral-300 hover:text-white transition-colors whitespace-nowrap">About</a>
+        <a href="services.html" class="text-neutral-300 hover:text-white transition-colors whitespace-nowrap">Services</a>
+        <a href="contact.html" class="text-neutral-300 hover:text-white transition-colors whitespace-nowrap">Contact</a>
+      </nav>
+
+      <!-- Action CTAs -->
+      <div class="hidden sm:flex items-center gap-3 shrink-0">
+        <a href="https://wa.me/918688365399?text=Hi%20Paul,%20checking%20shoot%20availability" target="_blank" class="flex items-center gap-2 px-3.5 py-2 rounded-full bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-400 border border-emerald-500/30 text-xs font-semibold tracking-wider uppercase transition-all whitespace-nowrap">
+          <i data-lucide="message-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
+          <span>WhatsApp</span>
+        </a>
+
+        <a href="contact.html" class="px-5 py-2.5 rounded-full bg-gradient-to-r from-gold-500 to-amber-600 text-black font-semibold text-xs tracking-wider uppercase shadow-lg shadow-gold-500/25 hover:shadow-gold-500/40 hover:scale-[1.02] transition-all whitespace-nowrap">
+          Book Shoot
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-toggle" class="xl:hidden p-2 text-neutral-300 hover:text-white" aria-label="Toggle Navigation">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="xl:hidden hidden fixed inset-0 top-20 bg-dark-950/98 backdrop-blur-2xl z-50 p-6 overflow-y-auto">
+      <div class="flex items-center justify-between pb-4 mb-2 border-b border-white/10">
+        <span class="text-xs uppercase tracking-widest text-gold-400 font-bold">Navigation Menu</span>
+        <button id="mobile-menu-close" class="p-1 text-neutral-400 hover:text-white" aria-label="Close Menu">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <div class="flex flex-col space-y-3 text-sm font-medium">
+        <a href="index.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>Home</span>
+          <i data-lucide="home" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="portfolio.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>All Portfolio Pages</span>
+          <i data-lucide="layout-grid" class="w-4 h-4 text-gold-500"></i>
+        </a>
+        <a href="retouch-work.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>Retouch Work (Before/After)</span>
+          <span class="text-[9px] bg-gold-500/20 text-gold-300 px-2 py-0.5 rounded font-bold uppercase">Sliders</span>
+        </a>
+        <a href="gear.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>My Gear (Sony α7R)</span>
+          <i data-lucide="camera" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="2025.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>2025 Recent Shoots</span>
+          <i data-lucide="sparkle" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="shoot-diaries.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>Shoot Diaries (BTS)</span>
+          <i data-lucide="film" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="old-shoots.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>Old Shoots Archive</span>
+          <i data-lucide="archive" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="about.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>About Paul</span>
+          <i data-lucide="user" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="services.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>Services &amp; Pricing</span>
+          <i data-lucide="sliders" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+        <a href="contact.html" class="text-neutral-300 hover:text-gold-400 py-2 border-b border-white/5 flex items-center justify-between">
+          <span>Contact &amp; Book Now</span>
+          <i data-lucide="send" class="w-4 h-4 text-neutral-500"></i>
+        </a>
+
+        <div class="pt-4 space-y-2">
+          <a href="https://wa.me/918688365399" target="_blank" class="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs uppercase tracking-wider transition-colors">
+            <i data-lucide="message-circle" class="w-4 h-4"></i>
+            <span>WhatsApp (+91 86883 65399)</span>
+          </a>
+          <a href="tel:+918688365399" class="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-dark-900 border border-white/10 text-neutral-300 hover:text-white text-xs font-semibold uppercase tracking-wider transition-colors">
+            <i data-lucide="phone" class="w-4 h-4 text-gold-400"></i>
+            <span>Call: +91 86883 65399</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="py-20 bg-dark-900 border-b border-white/5 text-center relative overflow-hidden">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-semibold uppercase tracking-widest mb-4">
+        <i data-lucide="flame" class="w-3.5 h-3.5"></i>
+        <span>Love &amp; Cinema</span>
+      </div>
+      <h1 class="font-serif text-4xl sm:text-6xl text-white font-normal leading-tight">
+        Couples &amp; <span class="italic text-gold-gradient">Pre-Wedding Stories</span>
+      </h1>
+      <p class="text-neutral-400 text-sm sm:text-base mt-4 max-w-2xl mx-auto leading-relaxed">
+        Unscripted chemistry, cinematic slow-burn romance, and breathtaking golden-hour locations. No stiff unnatural posing—just honest intimacy.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-20 bg-dark-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <!-- Shoot 1: Royal Couple Sherwani & Lehenga -->
+        <div class="group relative rounded-2xl overflow-hidden bg-dark-900 border border-white/10 cursor-pointer glass-panel-hover" data-lightbox-src="assets/images/625012006_18098577937924367_5445200974611425551_n.jpg" data-title="Royal Regalia Couple Portrait" data-category="Couples & Pre-Wedding" data-gear="Sony α7R • 50mm f/1.2 GM" data-settings="f/1.8 • 1/400s • ISO 125">
+          <div class="aspect-[4/5] overflow-hidden bg-black/40">
+            <img src="assets/images/625012006_18098577937924367_5445200974611425551_n.jpg" alt="Wedding Couple Portrait" class="w-full h-full object-cover high-res-render group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+          </div>
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/80 text-gold-400 text-[10px] font-mono border border-gold-500/40 backdrop-blur-md">★ 1440p Master Raw</div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/25 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+            <span class="text-gold-400 text-xs uppercase font-semibold">Regal Harmony</span>
+            <h4 class="text-white font-serif text-xl">Royal Regalia Reception Couple</h4>
+            <p class="text-neutral-400 text-xs mt-1">Raw Silk Golden Sherwani &amp; Midnight Blue</p>
+          </div>
+        </div>
+
+        <!-- Shoot 2: Charminar Heritage Couple Shoot -->
+        <div class="group relative rounded-2xl overflow-hidden bg-dark-900 border border-white/10 cursor-pointer glass-panel-hover" data-lightbox-src="assets/images/568692384_18055731500283722_2705642629849033049_n.jpg" data-title="Charminar Diaries Outdoor Couple Romance" data-category="Heritage Pre-Wedding" data-gear="Sony α7R • 35mm f/1.4 GM" data-settings="f/2.8 • 1/640s • ISO 100">
+          <div class="aspect-[4/5] overflow-hidden bg-black/40">
+            <img src="assets/images/568692384_18055731500283722_2705642629849033049_n.jpg" alt="Charminar Outdoor Couple Shoot" class="w-full h-full object-cover high-res-render group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+          </div>
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/80 text-gold-400 text-[10px] font-mono border border-gold-500/40 backdrop-blur-md">★ Heritage Highlight</div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/25 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+            <span class="text-gold-400 text-xs uppercase font-semibold">Hyderabad Heritage</span>
+            <h4 class="text-white font-serif text-xl">Charminar Diaries Outdoor Session</h4>
+            <p class="text-neutral-400 text-xs mt-1">Iconic Minarets &amp; Romantic Old City Mood</p>
+          </div>
+        </div>
+
+        <!-- Shoot 3: Intimate Brick Wall Embrace -->
+        <div class="group relative rounded-2xl overflow-hidden bg-dark-900 border border-white/10 cursor-pointer glass-panel-hover" data-lightbox-src="assets/images/341563901_1321096275504026_7656360587632670161_n.jpg" data-title="Rustic Brick Intimate Couple Embrace" data-category="Intimate Pre-Wedding" data-gear="Sony α7R • 85mm f/1.4 GM" data-settings="f/1.8 • 1/320s • ISO 160">
+          <div class="aspect-[4/5] overflow-hidden bg-black/40">
+            <img src="assets/images/341563901_1321096275504026_7656360587632670161_n.jpg" alt="Intimate Couple Embrace" class="w-full h-full object-cover high-res-render group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+          </div>
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/80 text-gold-400 text-[10px] font-mono border border-gold-500/40 backdrop-blur-md">★ Intimate Classic</div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/25 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+            <span class="text-gold-400 text-xs uppercase font-semibold">Unscripted Warmth</span>
+            <h4 class="text-white font-serif text-xl">Rustic Brick Intimate Embrace</h4>
+            <p class="text-neutral-400 text-xs mt-1">Candid Connection • Earthy Tones</p>
+          </div>
+        </div>
+
+        <!-- Shoot 4: Grand Mandap Wedding Setting -->
+        <div class="group relative rounded-2xl overflow-hidden bg-dark-900 border border-white/10 cursor-pointer glass-panel-hover" data-lightbox-src="assets/images/656465765_18079781636456739_8400611326016657691_n.jpg" data-title="Grand Mandap Stage Celebration" data-category="Wedding Moments" data-gear="Sony α7R • 35mm f/1.4 GM" data-settings="f/2.2 • 1/250s • ISO 200">
+          <div class="aspect-[4/5] overflow-hidden bg-black/40">
+            <img src="assets/images/656465765_18079781636456739_8400611326016657691_n.jpg" alt="Grand Mandap Stage" class="w-full h-full object-cover high-res-render group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+          </div>
+          <div class="absolute top-3 left-3 px-2.5 py-1 rounded bg-black/80 text-gold-400 text-[10px] font-mono border border-gold-500/40 backdrop-blur-md">★ 1440p Master Raw</div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/25 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+            <span class="text-gold-400 text-xs uppercase font-semibold">Grand Celebration</span>
+            <h4 class="text-white font-serif text-xl">Grand Mandap Wedding Stage</h4>
+            <p class="text-neutral-400 text-xs mt-1">Red Floral Archway &amp; Architectural Stage</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Lead Form -->
+  <section class="py-20 bg-dark-900 border-t border-white/5">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="glass-panel p-8 rounded-3xl border border-gold-500/30 text-center">
+        <h3 class="font-serif text-3xl text-white">Plan Your Pre-Wedding Shoot</h3>
+        <p class="text-neutral-400 text-xs sm:text-sm mt-2 mb-6">Discuss destination locations, wardrobe styling, and package options with Paul.</p>
+        
+        <form class="lead-form space-y-4 text-left">
+          <input type="hidden" name="shoot_type" value="Couple / Pre-Wedding Shoot" />
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <input type="text" name="name" required placeholder="Names of Couple" class="px-4 py-3 rounded-xl bg-dark-900 border border-white/10 text-white text-sm focus:border-gold-500 focus:outline-none" />
+            <input type="tel" name="phone" required placeholder="WhatsApp Number" class="px-4 py-3 rounded-xl bg-dark-900 border border-white/10 text-white text-sm focus:border-gold-500 focus:outline-none" />
+          </div>
+          <input type="text" name="date" placeholder="Wedding or Shoot Month" class="w-full px-4 py-3 rounded-xl bg-dark-900 border border-white/10 text-white text-sm focus:border-gold-500 focus:outline-none" />
+          <button type="submit" class="w-full py-3.5 rounded-xl bg-gold-500 hover:bg-gold-400 text-black font-semibold text-xs uppercase tracking-wider shadow-lg shadow-gold-500/20 transition-all">
+            Inquire via WhatsApp &rarr;
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Master Editorial Footer -->
+  <footer class="bg-dark-950 border-t border-white/10 pt-16 pb-12 text-neutral-400 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-white/10">
+        
+        <!-- Col 1: Brand Info -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full border border-gold-500/40 bg-dark-900 flex items-center justify-center text-gold-400 shadow-md shadow-gold-500/10">
+              <i data-lucide="aperture" class="w-4 h-4"></i>
+            </div>
+            <span class="font-display font-bold text-xl text-white tracking-tight">HUESBY<span class="text-gold-500">.</span>PAUL</span>
+          </div>
+          <p class="text-neutral-400 text-xs leading-relaxed max-w-sm">
+            Cinematic freelance photography &amp; high-end photo retouching by Paul (@huesby.paul). Dedicated to authentic storytelling, architectural heritage, and flawless editorial skin tone rendering.
+          </p>
+          <div class="flex flex-wrap items-center gap-4 text-neutral-400 pt-2">
+            <a href="https://www.instagram.com/huesby.paul" target="_blank" class="hover:text-gold-400 transition-colors flex items-center gap-1.5 text-xs">
+              <i data-lucide="instagram" class="w-4 h-4 text-gold-400"></i>
+              <span>@huesby.paul</span>
+            </a>
+            <a href="https://wa.me/918688365399" target="_blank" class="hover:text-emerald-400 transition-colors flex items-center gap-1.5 text-xs">
+              <i data-lucide="message-circle" class="w-4 h-4 text-emerald-400"></i>
+              <span>+91 86883 65399</span>
+            </a>
+          </div>
+          <div class="text-[11px] text-neutral-500 pt-1 space-y-0.5">
+            <p>📍 Hyderabad, India • Pan-India travel available</p>
+            <p>📸 Sony α7R Full-Frame Mirrorless • G-Master Optics</p>
+          </div>
+        </div>
+
+        <!-- Col 2: Category Portfolios -->
+        <div class="space-y-3">
+          <h4 class="text-xs uppercase tracking-widest text-white font-semibold flex items-center gap-1.5">
+            <i data-lucide="camera" class="w-3.5 h-3.5 text-gold-400"></i>
+            <span>Categories</span>
+          </h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="portraits.html" class="hover:text-gold-400 transition-colors">Portraits &amp; Headshots</a></li>
+            <li><a href="architecture.html" class="hover:text-gold-400 transition-colors">Architecture (Charminar)</a></li>
+            <li><a href="traditional-ethnic.html" class="hover:text-gold-400 transition-colors">Traditional &amp; Sarees</a></li>
+            <li><a href="maternity.html" class="hover:text-gold-400 transition-colors">Maternity Photography</a></li>
+            <li><a href="couples-prewedding.html" class="hover:text-gold-400 transition-colors">Couples &amp; Pre-Wedding</a></li>
+            <li><a href="baby-family.html" class="hover:text-gold-400 transition-colors">Baby &amp; Family</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: More Disciplines -->
+        <div class="space-y-3">
+          <h4 class="text-xs uppercase tracking-widest text-white font-semibold flex items-center gap-1.5">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-emerald-400"></i>
+            <span>Commercial &amp; Art</span>
+          </h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="retouch-work.html" class="hover:text-gold-400 transition-colors text-gold-400 font-medium">Retouch Work (B/A)</a></li>
+            <li><a href="landscape-nature.html" class="hover:text-gold-400 transition-colors">Landscape &amp; Nature</a></li>
+            <li><a href="street-photography.html" class="hover:text-gold-400 transition-colors">Street (Monochrome)</a></li>
+            <li><a href="product-photography.html" class="hover:text-gold-400 transition-colors">Product Photography</a></li>
+            <li><a href="jewelry-photography.html" class="hover:text-gold-400 transition-colors">Jewelry Macro Craft</a></li>
+            <li><a href="portfolio.html" class="hover:text-gold-400 transition-colors text-neutral-300">All Portfolio Hub &rarr;</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Instagram Highlights & BTS -->
+        <div class="space-y-3">
+          <h4 class="text-xs uppercase tracking-widest text-white font-semibold flex items-center gap-1.5">
+            <i data-lucide="disc" class="w-3.5 h-3.5 text-gold-400"></i>
+            <span>Highlights &amp; BTS</span>
+          </h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="gear.html" class="hover:text-gold-400 transition-colors">My Gear (Sony α7R)</a></li>
+            <li><a href="2025.html" class="hover:text-gold-400 transition-colors">2025 Current Work</a></li>
+            <li><a href="shoot-diaries.html" class="hover:text-gold-400 transition-colors">Shoot Diaries (BTS)</a></li>
+            <li><a href="old-shoots.html" class="hover:text-gold-400 transition-colors">Old Shoots Archive</a></li>
+            <li><a href="about.html" class="hover:text-gold-400 transition-colors">About Paul</a></li>
+            <li><a href="services.html" class="hover:text-gold-400 transition-colors">Services &amp; Pricing</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-500 gap-4">
+        <p>&copy; 2026 Huesby.Paul (@huesby.paul). All rights reserved. Professional Photography &amp; Retouching.</p>
+        <div class="flex flex-wrap items-center gap-6 text-neutral-400">
+          <a href="index.html" class="hover:text-gold-400 transition-colors">Home</a>
+          <a href="portfolio.html" class="hover:text-gold-400 transition-colors">Portfolio</a>
+          <a href="services.html" class="hover:text-gold-400 transition-colors">Pricing &amp; FAQs</a>
+          <a href="about.html" class="hover:text-gold-400 transition-colors">About Paul</a>
+          <a href="contact.html" class="hover:text-gold-400 transition-colors">Book a Shoot</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal Component (Global) -->
+  <div id="lightbox-modal" class="lightbox-modal fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-8 bg-black/95 backdrop-blur-xl">
+    <div class="lightbox-backdrop absolute inset-0"></div>
+    
+    <!-- Modal Close Button -->
+    <button id="lightbox-close" class="absolute top-6 right-6 z-50 w-10 h-10 rounded-full bg-dark-800/80 hover:bg-dark-700 text-white flex items-center justify-center border border-white/15 transition-colors">
+      <i data-lucide="x" class="w-5 h-5"></i>
+    </button>
+
+    <!-- Prev / Next Arrows -->
+    <button id="lightbox-prev" class="absolute left-4 top-1/2 -translate-y-1/2 z-50 w-12 h-12 rounded-full bg-dark-800/80 hover:bg-dark-700 text-white flex items-center justify-center border border-white/15 transition-colors">
+      <i data-lucide="chevron-left" class="w-6 h-6"></i>
+    </button>
+    <button id="lightbox-next" class="absolute right-4 top-1/2 -translate-y-1/2 z-50 w-12 h-12 rounded-full bg-dark-800/80 hover:bg-dark-700 text-white flex items-center justify-center border border-white/15 transition-colors">
+      <i data-lucide="chevron-right" class="w-6 h-6"></i>
+    </button>
+
+    <!-- Modal Content Card -->
+    <div class="relative z-10 max-w-6xl w-full flex flex-col max-h-[92vh]">
+      <div id="lightbox-img-container" class="flex-1 overflow-hidden flex items-center justify-center rounded-2xl bg-dark-950 border border-white/10 relative select-none">
+        <img id="lightbox-img" src="" alt="Fullscreen Portfolio View" class="max-h-[76vh] w-auto max-w-full object-contain high-res-render transition-all" />
+        <div class="absolute bottom-3 right-3 px-2.5 py-1 rounded bg-black/80 text-gold-300 text-[10px] font-mono border border-white/10 pointer-events-none backdrop-blur-md hidden sm:block">
+          Sony Full-Frame Master
+        </div>
+      </div>
+      
+      <!-- Meta Information Footer -->
+      <div class="mt-4 p-4 rounded-xl bg-dark-900/95 border border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
+        <div>
+          <span id="lightbox-category" class="text-gold-400 font-semibold uppercase tracking-wider block">Couples</span>
+          <h4 id="lightbox-title" class="text-white font-serif text-lg font-normal">Royal Regalia Couple Portrait</h4>
+        </div>
+        <div class="flex flex-wrap items-center gap-3 text-neutral-400">
+          <div class="flex items-center gap-1.5">
+            <i data-lucide="camera" class="w-3.5 h-3.5 text-gold-400"></i>
+            <span id="lightbox-gear">Sony α7R • 50mm f/1.2 GM</span>
+          </div>
+          <div class="flex items-center gap-1.5 hidden md:flex">
+            <i data-lucide="sliders" class="w-3.5 h-3.5 text-neutral-500"></i>
+            <span id="lightbox-settings">f/1.8 • 1/400s • ISO 125</span>
+          </div>
+          <button id="lightbox-zoom-btn" type="button" class="flex items-center gap-1 px-3 py-1.5 rounded-lg bg-dark-800 hover:bg-dark-750 text-white border border-white/15 text-[11px] font-semibold transition-colors">
+            <i data-lucide="zoom-in" class="w-3.5 h-3.5 text-gold-400"></i>
+            <span>100% HD Detail</span>
+          </button>
+          <a href="https://wa.me/918688365399?text=Hi%20Paul,%20I%20love%20this%20couple%20shoot%20style!" target="_blank" class="px-3.5 py-1.5 rounded-lg bg-gradient-to-r from-gold-500 to-amber-600 hover:from-gold-400 hover:to-amber-500 text-black font-semibold uppercase text-[10px] tracking-wider transition-all shadow-md">
+            Inquire This Style
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Sticky Pulsing WhatsApp Floating Button -->
+  <a href="https://wa.me/918688365399?text=Hi%20Paul,%20checking%20shoot%20availability" target="_blank" class="fixed bottom-6 right-6 z-40 whatsapp-pulse flex items-center gap-2.5 px-4 py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs tracking-wider uppercase shadow-2xl transition-all hover:scale-105 group" title="Chat directly with Paul on WhatsApp">
+    <i data-lucide="message-circle" class="w-5 h-5 fill-white text-emerald-600"></i>
+    <span class="hidden sm:inline font-bold">WhatsApp (+91 86883 65399)</span>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>
